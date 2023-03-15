@@ -21,7 +21,7 @@ public class MavenFreeStyle {
 	} else if (a == 1) {
         return 1;
     }else{
-        return (fibonacci(-1 ) + fibonacci(-2));
+        return (fibonacci(a-1 ) + fibonacci(a-2));
     }
     }
 }
