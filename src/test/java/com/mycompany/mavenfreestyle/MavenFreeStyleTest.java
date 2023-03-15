@@ -36,7 +36,7 @@ public class MavenFreeStyleTest {
     public void testFibonacci(){
         //App test = new App();
         MavenFreeStyle instance = new MavenFreeStyle();
-	assertTrue(instance.fibonacci(1) == 0);
+	assertTrue(instance.fibonacci(1) == 1);
     }
     @Test
     public void testFibonacci2(){
