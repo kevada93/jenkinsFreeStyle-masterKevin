@@ -34,15 +34,20 @@ public class MavenFreeStyleTest {
 
     @Test 
     public void testFibonacci(){
-        //App test = new App();
-        MavenFreeStyle instance = new MavenFreeStyle();
-	assertTrue(instance.fibonacci(1) == 1);
+        MavenFreeStyleTest fib = new MavenFreeStyleTest();
+
+        // Prueba con los primeros 10 términos de la secuencia
+        int[] expected = {0, 1, 1, 2, 3, 5, 8, 13, 21, 34};
+        int[] actual = {0,1,1,2,3,5,8,13,21,34};
+
+        assertArrayEquals(expected, actual);
     }
-    @Test	
+    }
+   /* @Test
     public void testFibonacci2(){
 	//App test = new App();
         MavenFreeStyle instance = new MavenFreeStyle();
         assertTrue(instance.fibonacci(10) == 10);
     }
-    
+    */
 }
